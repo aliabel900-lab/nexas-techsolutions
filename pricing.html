@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pricing | DevSolutions</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    margin:0;
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#eef4ff,#dbeafe,#f8fbff);
+    background-size:300% 300%;
+    animation:gradientBG 12s ease infinite;
+    min-height:100vh;
+    overflow-x:hidden;
+    position:relative;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+body::before,
+body::after{
+    content:"";
+    position:fixed;
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    filter:blur(120px);
+    z-index:-1;
+    animation:float 10s ease-in-out infinite;
+}
+
+body::before{
+    background:#3b82f6;
+    top:-120px;
+    left:-120px;
+    opacity:.25;
+}
+
+body::after{
+    background:#06b6d4;
+    bottom:-120px;
+    right:-120px;
+    opacity:.25;
+}
+
+@keyframes gradientBG{
+    0%{background-position:0% 50%;}
+    50%{background-position:100% 50%;}
+    100%{background-position:0% 50%;}
+}
+
+@keyframes float{
+    0%,100%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(30px);
+    }
+}
+
+.pricing{
+    width:100%;
+    padding:80px 8%;
+}
+
+.heading{
+    text-align:center;
+    margin-bottom:60px;
+}
+
+.heading h1{
+    font-size:42px;
+    color:#222;
+}
+
+.heading p{
+    color:#666;
+    margin-top:10px;
+}
+/* Navigation Bar */
+
+.navbar{
+    position:sticky;
+    top:20px;
+    width:90%;
+    max-width:1200px;
+    margin:20px auto;
+    padding:15px 35px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:rgba(255,255,255,.15);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.25);
+    border-radius:50px;
+
+    box-shadow:0 8px 30px rgba(0,0,0,.12);
+
+    z-index:1000;
+}
+
+/* Logo */
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#2563eb;
+}
+
+/* Navigation Links */
+
+.nav-links{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.nav-links a{
+    color:#334155;
+    text-decoration:none;
+    font-size:16px;
+    font-weight:500;
+    padding:10px 18px;
+    border-radius:30px;
+    transition:.35s ease;
+}
+.nav-links a:hover{
+
+    background:#2563eb;
+
+    color:white;
+
+    transform:translateY(-3px);
+
+}
+
+.price-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:rgba(255,255,255,.75);
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.4);
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    transition:.4s;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+}
+
+.card:hover{
+
+    transform:
+        translateY(-18px)
+        scale(1.04)
+        rotateX(2deg);
+
+}
+
+.top{
+    padding:35px;
+    text-align:center;
+}
+
+.top h2{
+    font-size:28px;
+    margin-bottom:15px;
+}
+
+.card ul{
+    list-style:none;
+    padding:25px;
+}
+
+.card ul li{
+    padding:16px 0;
+    border-bottom:1px solid rgba(0,0,0,.08);
+    color:#334155;
+    transition:.3s;
+}
+
+.price{
+    font-size:60px;
+    font-weight:700;
+
+    background:linear-gradient(
+        90deg,
+        #2563eb,
+        #3b82f6,
+        #06b6d4,
+        #0ea5e9
+    );
+
+    background-size:200% auto;
+    background-clip:text;
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    animation:shine 4s linear infinite;
+}
+
+@keyframes shine{
+    from{
+        background-position:0%;
+    }
+    to{
+        background-position:200%;
+    }
+}
+
+@keyframes shine{
+
+    to{
+        background-position:200% center;
+    }
+
+}
+
+.price span{
+    font-size:18px;
+    color:#64748b;
+}
+
+.btn{
+    display:block;
+    width:85%;
+    margin:30px auto;
+    padding:15px;
+    text-align:center;
+    text-decoration:none;
+    color:#fff;
+    font-weight:600;
+    border-radius:50px;
+    background:linear-gradient(135deg,#2563eb,#06b6d4);
+    transition:.35s;
+    box-shadow:0 15px 30px rgba(37,99,235,.25);
+}
+
+.btn:hover{
+
+    box-shadow:
+        0 0 25px rgba(37,99,235,.45),
+        0 0 50px rgba(6,182,212,.25);
+
+}
+
+.popular{
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 22px;
+    background:
+        linear-gradient(#fff,#fff) padding-box,
+        linear-gradient(135deg,#2563eb,#06b6d4) border-box;
+}
+
+
+
+.tag{
+    position:absolute;
+    top:20px;
+    right:-40px;
+    background:#ff9800;
+    color:white;
+    padding:8px 50px;
+    transform:rotate(45deg);
+    font-size:14px;
+}
+
+.heading h1{
+    font-size:52px;
+    font-weight:700;
+    color:#0f172a;
+}
+
+</style>
+
+</head>
+<body>
+
+    <nav class="navbar">
+    <div class="logo">DevSolutions</div>
+
+    <div class="nav-links">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="pricing.html" class="active">Pricing</a>
+    </div>
+</nav>
+
+<section class="pricing">
+
+<div class="heading">
+
+<h1>Our Pricing Plans</h1>
+
+<p>Choose a package that fits your school.</p>
+
+</div>
+
+<div class="price-container">
+
+    <!-- Website Design -->
+    <div class="card">
+
+        <div class="top">
+            <h2>Website Design</h2>
+
+            <div class="price">
+                KSh 10,000
+            </div>
+
+            <p>Starting Price</p>
+        </div>
+
+        <ul>
+            <li>✔ Modern Responsive Design</li>
+            <li>✔ Up to 10 Pages</li>
+            <li>✔ Mobile Friendly</li>
+            <li>✔ Contact Form</li>
+            <li>✔ SEO Ready</li>
+            <li>✔ 30 Days Free Support</li>
+        </ul>
+
+        <a href="index.html#contact" class="btn">
+            Request Quote
+        </a>
+
+    </div>
+
+    <!-- System Development -->
+    <div class="card popular">
+
+        <div class="tag">
+            BEST VALUE
+        </div>
+
+        <div class="top">
+
+            <h2>System Development</h2>
+
+            <div class="price">
+                KSh 50,000+
+            </div>
+
+            <p>Starting Price</p>
+
+        </div>
+
+        <ul>
+            <li>✔ School Management Systems</li>
+            <li>✔ Inventory Systems</li>
+            <li>✔ Hospital Systems</li>
+            <li>✔ Business Management Systems</li>
+            <li>✔ Database Integration</li>
+            <li>✔ User Authentication</li>
+            <li>✔ Free Installation</li>
+            <li>✔ Training & Support</li>
+        </ul>
+
+        <a href="index.html#contact" class="btn">
+            Get Started
+        </a>
+
+    </div>
+
+    <!-- Custom Software -->
+    <div class="card">
+
+        <div class="top">
+
+            <h2>Custom Software</h2>
+
+            <div class="price">
+                Custom
+            </div>
+
+            <p>Quote Based</p>
+
+        </div>
+
+        <ul>
+            <li>✔ Tailor-Made Solutions</li>
+            <li>✔ API Integration</li>
+            <li>✔ Cloud Deployment</li>
+            <li>✔ Mobile & Web Apps</li>
+            <li>✔ Maintenance</li>
+            <li>✔ Technical Support</li>
+        </ul>
+
+        <a href="index.html#contact" class="btn">
+            Contact Us
+        </a>
+
+    </div>
+
+</div>
+
+</section>
+<script>
+window.addEventListener("scroll", function () {
+
+    const nav = document.querySelector(".navbar");
+
+    if (window.scrollY > 20) {
+
+        nav.style.boxShadow =
+        "0 15px 40px rgba(0,0,0,.15)";
+
+    } else {
+
+        nav.style.boxShadow =
+        "0 8px 30px rgba(0,0,0,.12)";
+    }
+
+});
+</script>
+
+</body>
+</html>
