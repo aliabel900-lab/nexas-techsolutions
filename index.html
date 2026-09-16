@@ -3,100 +3,131 @@
 
 <head>
 
-    <!-- Basic SEO -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- =====================================================
+         BASIC SEO
+    ====================================================== -->
 
-    <title>Software Development Company in Mombasa, Kenya | DevSolutions</title>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Software Development Company in Mombasa, Kenya | DevSolutions
+    </title>
 
     <meta name="description"
-        content="DevSolutions is a software development company in Mombasa, Kenya offering website development, custom software, mobile apps, cybersecurity, cloud solutions and business systems.">
+          content="DevSolutions provides professional website development, custom software, mobile applications, cybersecurity and business systems in Mombasa and across Kenya.">
 
     <meta name="keywords"
-        content="software development company Mombasa, web development Mombasa, website design Kenya, software company Kenya, custom software development, mobile app development Kenya, cybersecurity Mombasa">
+          content="software development company Mombasa, web development Mombasa, website design Kenya, custom software Kenya, mobile app development Kenya, cybersecurity Mombasa">
 
     <meta name="author" content="DevSolutions">
-    <meta name="robots" content="index, follow">
 
-    <!-- Canonical -->
-    <link rel="canonical" href="https://devsolutions.co.ke/">
+    <meta name="robots"
+          content="index, follow">
 
-    <!-- Open Graph -->
+    <link rel="canonical"
+          href="https://devsolutions.co.ke/">
+
+
+    <!-- =====================================================
+         OPEN GRAPH
+    ====================================================== -->
+
     <meta property="og:title"
-        content="Software Development Company in Mombasa | DevSolutions">
+          content="DevSolutions | Software Development Company in Mombasa">
 
     <meta property="og:description"
-        content="Professional websites, custom software, mobile applications, cybersecurity and business systems in Kenya.">
+          content="Websites, custom software, mobile apps and digital solutions for businesses in Kenya.">
 
-    <meta property="og:type" content="website">
+    <meta property="og:type"
+          content="website">
 
     <meta property="og:url"
-        content="https://devsolutions.co.ke/">
+          content="https://devsolutions.co.ke/">
 
     <meta property="og:image"
-        content="https://devsolutions.co.ke/images/og-image.jpg">
+          content="https://devsolutions.co.ke/images/og-image.jpg">
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
 
-    <meta name="twitter:title"
-        content="Software Development Company in Mombasa | DevSolutions">
+    <!-- =====================================================
+         FAVICON
+    ====================================================== -->
 
-    <meta name="twitter:description"
-        content="Professional software and digital solutions for businesses in Kenya.">
+    <link rel="icon"
+          href="images/favicon.png">
 
-    <meta name="twitter:image"
-        content="https://devsolutions.co.ke/images/og-image.jpg">
 
-    <!-- Favicon -->
-    <link rel="icon" href="images/favicon.png">
-
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
 
     <link rel="preconnect"
-        href="https://fonts.gstatic.com"
-        crossorigin>
+          href="https://fonts.googleapis.com">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
 
-    <!-- Structured Data -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700;800&display=swap"
+          rel="stylesheet">
+
+
+    <!-- =====================================================
+         STRUCTURED DATA
+    ====================================================== -->
+
     <script type="application/ld+json">
+
     {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
+
         "name": "DevSolutions",
+
         "url": "https://devsolutions.co.ke/",
-        "description": "Software development company providing websites, custom software, mobile applications, cybersecurity and business systems.",
+
+        "description":
+        "Software development company providing websites, custom software, mobile applications, cybersecurity and business systems.",
+
         "telephone": "+254706332477",
+
         "email": "info@devsolutions.co.ke",
+
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Mombasa",
             "addressCountry": "KE"
         },
+
         "areaServed": [
             "Mombasa",
             "Kenya"
         ],
+
         "serviceType": [
             "Website Development",
-            "Software Development",
+            "Custom Software Development",
             "Mobile App Development",
             "Cybersecurity",
             "Cloud Solutions",
             "SEO Services"
         ]
     }
+
     </script>
+
+
+    <!-- =====================================================
+         CSS
+    ====================================================== -->
 
     <style>
 
-        /* =========================
-           GLOBAL
-        ========================= */
+        /* =====================================================
+           RESET
+        ====================================================== */
 
         * {
             margin: 0;
@@ -104,462 +135,1513 @@
             box-sizing: border-box;
         }
 
+
         html {
             scroll-behavior: smooth;
         }
 
+
         body {
-            font-family: "Poppins", sans-serif;
+
+            font-family: "Inter", sans-serif;
+
+            background: #ffffff;
+
+            color: #111827;
+
             line-height: 1.6;
-            color: #222;
-            background: #fff;
+
+            overflow-x: hidden;
         }
+
+
+        h1,
+        h2,
+        h3,
+        h4 {
+
+            font-family: "Poppins", sans-serif;
+
+            line-height: 1.2;
+        }
+
 
         a {
             text-decoration: none;
             color: inherit;
         }
 
+
+        button,
+        input,
+        textarea {
+
+            font-family: inherit;
+        }
+
+
         img {
-            max-width: 100%;
+
+            width: 100%;
+
             display: block;
         }
 
+
         .container {
-            width: 90%;
-            max-width: 1200px;
+
+            width: min(1180px, 92%);
+
             margin: auto;
         }
 
 
-        /* =========================
-           NAVBAR
-        ========================= */
+        /* =====================================================
+           COLORS
+        ====================================================== */
+
+        :root {
+
+            --primary: #2563eb;
+
+            --primary-dark: #1d4ed8;
+
+            --secondary: #06b6d4;
+
+            --dark: #07111f;
+
+            --dark-2: #0b172a;
+
+            --text: #111827;
+
+            --muted: #64748b;
+
+            --light: #f8fafc;
+
+            --border: #e5e7eb;
+
+            --white: #ffffff;
+        }
+
+
+        /* =====================================================
+           NAVIGATION
+        ====================================================== */
 
         header {
+
             position: fixed;
+
             top: 0;
+
             left: 0;
+
             width: 100%;
-            z-index: 1000;
 
-            background: rgba(10, 15, 30, 0.92);
-            backdrop-filter: blur(12px);
+            z-index: 999;
 
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            background: rgba(7, 17, 31, 0.82);
+
+            backdrop-filter: blur(18px);
+
+            border-bottom:
+                1px solid rgba(255,255,255,0.08);
         }
+
 
         nav {
-            width: 90%;
-            max-width: 1200px;
-            margin: auto;
+
+            height: 76px;
 
             display: flex;
-            align-items: center;
-            justify-content: space-between;
 
-            height: 75px;
+            align-items: center;
+
+            justify-content: space-between;
         }
+
 
         .logo {
-            color: #fff;
-            font-size: 24px;
-            font-weight: 700;
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 10px;
+
+            color: white;
+
+            font-size: 21px;
+
+            font-weight: 800;
+
+            letter-spacing: -0.5px;
         }
+
+
+        .logo-mark {
+
+            width: 38px;
+
+            height: 38px;
+
+            display: grid;
+
+            place-items: center;
+
+            border-radius: 10px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    var(--primary),
+                    var(--secondary)
+                );
+
+            color: white;
+
+            font-size: 18px;
+
+            box-shadow:
+                0 8px 25px rgba(37,99,235,0.35);
+        }
+
 
         .logo span {
-            color: #00c6ff;
+
+            color: #38bdf8;
         }
 
+
         .nav-links {
+
             display: flex;
-            gap: 30px;
+
+            align-items: center;
+
+            gap: 32px;
+
             list-style: none;
         }
 
+
         .nav-links a {
-            color: #fff;
-            font-size: 15px;
+
+            color: #dbeafe;
+
+            font-size: 14px;
+
+            font-weight: 500;
+
             transition: 0.3s;
         }
 
+
         .nav-links a:hover {
-            color: #00c6ff;
+
+            color: #38bdf8;
         }
 
+
+        .nav-cta {
+
+            padding: 11px 20px;
+
+            border-radius: 8px;
+
+            background: var(--primary);
+
+            color: white !important;
+
+            font-weight: 600 !important;
+        }
+
+
+        .nav-cta:hover {
+
+            background: var(--primary-dark);
+
+            transform: translateY(-2px);
+        }
+
+
         .menu-btn {
+
             display: none;
 
-            background: none;
             border: none;
 
-            color: #fff;
+            background: transparent;
+
+            color: white;
+
             font-size: 28px;
 
             cursor: pointer;
         }
 
 
-        /* =========================
+        /* =====================================================
            HERO
-        ========================= */
+        ====================================================== */
 
         .hero {
+
             min-height: 100vh;
 
+            position: relative;
+
             display: flex;
+
             align-items: center;
 
-            color: #fff;
+            overflow: hidden;
+
+            color: white;
 
             background:
-                linear-gradient(
-                    rgba(5,10,25,0.78),
-                    rgba(5,10,25,0.78)
-                ),
-                url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=80");
 
-            background-size: cover;
-            background-position: center;
+                radial-gradient(
+                    circle at 80% 20%,
+                    rgba(37,99,235,0.25),
+                    transparent 35%
+                ),
+
+                radial-gradient(
+                    circle at 10% 80%,
+                    rgba(6,182,212,0.15),
+                    transparent 35%
+                ),
+
+                linear-gradient(
+                    135deg,
+                    #030712,
+                    #071a35
+                );
         }
+
+
+        .hero::before {
+
+            content: "";
+
+            position: absolute;
+
+            width: 500px;
+
+            height: 500px;
+
+            border-radius: 50%;
+
+            background:
+                rgba(37,99,235,0.08);
+
+            filter: blur(20px);
+
+            top: -200px;
+
+            right: -150px;
+        }
+
 
         .hero-content {
-            max-width: 750px;
-            padding-top: 75px;
+
+            position: relative;
+
+            z-index: 2;
+
+            max-width: 820px;
+
+            padding-top: 80px;
         }
 
-        .hero-tag {
-            display: inline-block;
 
-            margin-bottom: 20px;
+        .hero-badge {
 
-            padding: 8px 16px;
+            display: inline-flex;
 
-            border-radius: 30px;
+            align-items: center;
 
-            background: rgba(0,198,255,0.15);
-            border: 1px solid rgba(0,198,255,0.4);
+            gap: 8px;
 
-            color: #00c6ff;
+            padding: 8px 14px;
 
-            font-size: 14px;
+            border-radius: 50px;
+
+            background:
+                rgba(37,99,235,0.12);
+
+            border:
+                1px solid rgba(96,165,250,0.25);
+
+            color: #93c5fd;
+
+            font-size: 13px;
+
             font-weight: 600;
-        }
 
-        .hero h1 {
-            font-size: clamp(40px, 6vw, 70px);
-            line-height: 1.1;
             margin-bottom: 25px;
         }
 
-        .hero p {
-            font-size: 18px;
-            color: #ddd;
-            margin-bottom: 35px;
-            max-width: 700px;
-        }
 
-        .btn {
-            display: inline-block;
+        .status-dot {
 
-            padding: 14px 28px;
+            width: 7px;
 
-            border-radius: 8px;
+            height: 7px;
 
-            background: #00c6ff;
-            color: #07111f;
+            border-radius: 50%;
 
-            font-weight: 700;
-
-            transition: 0.3s;
-        }
-
-        .btn:hover {
-            transform: translateY(-3px);
-            background: #fff;
-        }
-
-
-        /* =========================
-           SECTION
-        ========================= */
-
-        section {
-            padding: 90px 0;
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-
-        .section-title h2 {
-            font-size: 38px;
-            margin-bottom: 10px;
-        }
-
-        .section-title p {
-            color: #666;
-        }
-
-
-        /* =========================
-           SERVICES
-        ========================= */
-
-        .services {
-            background: #f7f9fc;
-        }
-
-        .service-grid {
-            display: grid;
-
-            grid-template-columns:
-                repeat(3, 1fr);
-
-            gap: 25px;
-        }
-
-        .service-card {
-            background: #fff;
-
-            padding: 35px 25px;
-
-            border-radius: 15px;
+            background: #22c55e;
 
             box-shadow:
-                0 10px 30px rgba(0,0,0,0.06);
-
-            transition: 0.3s;
-        }
-
-        .service-card:hover {
-            transform: translateY(-8px);
-        }
-
-        .service-icon {
-            font-size: 40px;
-            margin-bottom: 20px;
-        }
-
-        .service-card h3 {
-            margin-bottom: 12px;
-            font-size: 21px;
-        }
-
-        .service-card p {
-            color: #666;
+                0 0 12px #22c55e;
         }
 
 
-        /* =========================
-           PROJECTS
-        ========================= */
+        .hero h1 {
 
-        .projects {
-            background: #fff;
-        }
+            font-size: clamp(42px, 6vw, 76px);
 
-        .project-grid {
-            display: grid;
+            letter-spacing: -3px;
 
-            grid-template-columns:
-                repeat(3, 1fr);
-
-            gap: 25px;
-        }
-
-        .project-card {
-            padding: 30px;
-
-            border-radius: 15px;
-
-            background: #f7f9fc;
-
-            border: 1px solid #eee;
-
-            transition: 0.3s;
-        }
-
-        .project-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
-        }
-
-        .project-card h3 {
-            margin-bottom: 10px;
-        }
-
-        .project-card p {
-            color: #666;
+            margin-bottom: 25px;
         }
 
 
-        /* =========================
-           CONTACT
-        ========================= */
-
-        .contact {
-            position: relative;
-
-            color: #fff;
+        .hero h1 span {
 
             background:
                 linear-gradient(
-                    135deg,
-                    #06152d,
-                    #003c66
+                    90deg,
+                    #60a5fa,
+                    #22d3ee
                 );
 
-            overflow: hidden;
+            -webkit-background-clip: text;
+
+            -webkit-text-fill-color: transparent;
         }
 
-        .contact-content {
-            display: grid;
 
-            grid-template-columns:
-                1fr 1fr;
+        .hero p {
 
-            gap: 50px;
+            max-width: 720px;
+
+            color: #b8c5d6;
+
+            font-size: 18px;
+
+            margin-bottom: 35px;
         }
 
-        .contact-info h2 {
-            font-size: 40px;
-            margin-bottom: 20px;
+
+        .hero-buttons {
+
+            display: flex;
+
+            gap: 14px;
+
+            flex-wrap: wrap;
         }
 
-        .contact-info p {
-            margin-bottom: 15px;
-            color: #d8e5ef;
-        }
 
-        .contact-info strong {
-            color: #00c6ff;
-        }
+        .btn {
 
-        .contact-form {
-            background: rgba(255,255,255,0.08);
+            display: inline-flex;
 
-            padding: 30px;
+            align-items: center;
 
-            border-radius: 15px;
+            justify-content: center;
 
-            backdrop-filter: blur(10px);
-        }
+            gap: 8px;
 
-        .contact-form input,
-        .contact-form textarea {
-            width: 100%;
+            padding: 14px 23px;
 
-            padding: 14px;
+            border-radius: 9px;
 
-            margin-bottom: 15px;
+            font-weight: 600;
 
-            border: none;
-
-            border-radius: 8px;
-
-            font-family: inherit;
-        }
-
-        .contact-form textarea {
-            min-height: 150px;
-            resize: vertical;
-        }
-
-        .contact-form button {
-            width: 100%;
-
-            border: none;
+            transition: 0.3s;
 
             cursor: pointer;
         }
 
 
-        /* =========================
-           FOOTER
-        ========================= */
+        .btn-primary {
 
-        footer {
-            background: #050b16;
+            background:
+                linear-gradient(
+                    135deg,
+                    #2563eb,
+                    #0891b2
+                );
 
-            color: #aaa;
+            color: white;
 
-            padding: 50px 0 20px;
+            box-shadow:
+                0 10px 30px rgba(37,99,235,0.3);
         }
 
-        .footer-grid {
+
+        .btn-primary:hover {
+
+            transform: translateY(-3px);
+
+            box-shadow:
+                0 15px 35px rgba(37,99,235,0.4);
+        }
+
+
+        .btn-outline {
+
+            border:
+                1px solid rgba(255,255,255,0.18);
+
+            color: white;
+
+            background:
+                rgba(255,255,255,0.04);
+        }
+
+
+        .btn-outline:hover {
+
+            background:
+                rgba(255,255,255,0.09);
+
+            transform: translateY(-3px);
+        }
+
+
+        /* =====================================================
+           HERO STATS
+        ====================================================== */
+
+        .hero-stats {
+
+            display: flex;
+
+            gap: 45px;
+
+            margin-top: 55px;
+
+            padding-top: 30px;
+
+            border-top:
+                1px solid rgba(255,255,255,0.1);
+        }
+
+
+        .stat strong {
+
+            display: block;
+
+            font-size: 25px;
+
+            color: white;
+        }
+
+
+        .stat span {
+
+            font-size: 13px;
+
+            color: #94a3b8;
+        }
+
+
+        /* =====================================================
+           SECTION
+        ====================================================== */
+
+        section {
+
+            padding: 100px 0;
+        }
+
+
+        .section-heading {
+
+            max-width: 700px;
+
+            margin: 0 auto 60px;
+
+            text-align: center;
+        }
+
+
+        .section-label {
+
+            display: inline-block;
+
+            color: var(--primary);
+
+            background:
+                #eff6ff;
+
+            padding: 7px 13px;
+
+            border-radius: 30px;
+
+            font-size: 12px;
+
+            font-weight: 700;
+
+            text-transform: uppercase;
+
+            letter-spacing: 1px;
+
+            margin-bottom: 14px;
+        }
+
+
+        .section-heading h2 {
+
+            font-size: clamp(30px, 4vw, 45px);
+
+            margin-bottom: 15px;
+
+            letter-spacing: -1.5px;
+        }
+
+
+        .section-heading p {
+
+            color: var(--muted);
+
+            font-size: 16px;
+        }
+
+
+        /* =====================================================
+           SERVICES
+        ====================================================== */
+
+        .services {
+
+            background: #f8fafc;
+        }
+
+
+        .service-grid {
+
             display: grid;
 
             grid-template-columns:
-                2fr 1fr 1fr;
+                repeat(3, 1fr);
 
-            gap: 40px;
-
-            margin-bottom: 40px;
+            gap: 22px;
         }
 
-        footer h3 {
-            color: #fff;
-            margin-bottom: 15px;
+
+        .service-card {
+
+            position: relative;
+
+            background: white;
+
+            border:
+                1px solid var(--border);
+
+            border-radius: 16px;
+
+            padding: 32px;
+
+            transition: 0.35s;
+
+            overflow: hidden;
         }
 
-        footer p {
-            margin-bottom: 8px;
+
+        .service-card::before {
+
+            content: "";
+
+            position: absolute;
+
+            left: 0;
+
+            top: 0;
+
+            width: 100%;
+
+            height: 3px;
+
+            background:
+                linear-gradient(
+                    90deg,
+                    var(--primary),
+                    var(--secondary)
+                );
+
+            transform: scaleX(0);
+
+            transform-origin: left;
+
+            transition: 0.35s;
         }
 
-        footer ul {
-            list-style: none;
+
+        .service-card:hover {
+
+            transform: translateY(-8px);
+
+            border-color:
+                #bfdbfe;
+
+            box-shadow:
+                0 20px 45px rgba(15,23,42,0.09);
         }
 
-        footer li {
-            margin-bottom: 8px;
+
+        .service-card:hover::before {
+
+            transform: scaleX(1);
         }
 
-        footer a:hover {
-            color: #00c6ff;
+
+        .service-icon {
+
+            width: 52px;
+
+            height: 52px;
+
+            display: grid;
+
+            place-items: center;
+
+            border-radius: 13px;
+
+            background: #eff6ff;
+
+            color: var(--primary);
+
+            font-size: 25px;
+
+            margin-bottom: 22px;
         }
 
-        .copyright {
-            text-align: center;
 
-            padding-top: 20px;
+        .service-card h3 {
 
-            border-top: 1px solid rgba(255,255,255,0.1);
+            font-size: 19px;
+
+            margin-bottom: 10px;
+        }
+
+
+        .service-card p {
+
+            color: var(--muted);
+
+            font-size: 14px;
+
+            line-height: 1.7;
+        }
+
+
+        /* =====================================================
+           WHY US
+        ====================================================== */
+
+        .why-us {
+
+            background: white;
+        }
+
+
+        .why-grid {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 70px;
+
+            align-items: center;
+        }
+
+
+        .why-image {
+
+            min-height: 480px;
+
+            border-radius: 22px;
+
+            background:
+
+                linear-gradient(
+                    rgba(3,7,18,0.35),
+                    rgba(3,7,18,0.6)
+                ),
+
+                url("https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1000&q=80");
+
+            background-size: cover;
+
+            background-position: center;
+
+            position: relative;
+
+            overflow: hidden;
+        }
+
+
+        .experience-card {
+
+            position: absolute;
+
+            bottom: 25px;
+
+            left: 25px;
+
+            padding: 20px 25px;
+
+            background:
+                rgba(7,17,31,0.88);
+
+            backdrop-filter: blur(12px);
+
+            border-radius: 14px;
+
+            color: white;
+
+            border:
+                1px solid rgba(255,255,255,0.1);
+        }
+
+
+        .experience-card strong {
+
+            font-size: 28px;
+
+            display: block;
+        }
+
+
+        .experience-card span {
+
+            color: #cbd5e1;
+
+            font-size: 13px;
+        }
+
+
+        .why-content h2 {
+
+            font-size: 40px;
+
+            margin-bottom: 20px;
+
+            letter-spacing: -1px;
+        }
+
+
+        .why-content > p {
+
+            color: var(--muted);
+
+            margin-bottom: 30px;
+        }
+
+
+        .benefit {
+
+            display: flex;
+
+            gap: 15px;
+
+            margin-bottom: 22px;
+        }
+
+
+        .benefit-icon {
+
+            min-width: 42px;
+
+            height: 42px;
+
+            display: grid;
+
+            place-items: center;
+
+            border-radius: 10px;
+
+            background: #eff6ff;
+
+            color: var(--primary);
+
+            font-weight: 700;
+        }
+
+
+        .benefit h4 {
+
+            margin-bottom: 4px;
+
+            font-size: 16px;
+        }
+
+
+        .benefit p {
+
+            color: var(--muted);
 
             font-size: 14px;
         }
 
 
-        /* =========================
-           RESPONSIVE
-        ========================= */
+        /* =====================================================
+           PROJECTS
+        ====================================================== */
 
-        @media (max-width: 900px) {
+        .projects {
 
-            .service-grid,
-            .project-grid {
-                grid-template-columns: repeat(2, 1fr);
+            background: #f8fafc;
+        }
+
+
+        .project-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(3, 1fr);
+
+            gap: 24px;
+        }
+
+
+        .project-card {
+
+            background: white;
+
+            border-radius: 16px;
+
+            overflow: hidden;
+
+            border:
+                1px solid var(--border);
+
+            transition: 0.35s;
+        }
+
+
+        .project-card:hover {
+
+            transform: translateY(-7px);
+
+            box-shadow:
+                0 20px 40px rgba(15,23,42,0.09);
+        }
+
+
+        .project-image {
+
+            height: 190px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            font-size: 45px;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #0f172a,
+                    #1d4ed8
+                );
+
+            color: white;
+        }
+
+
+        .project-content {
+
+            padding: 25px;
+        }
+
+
+        .project-content h3 {
+
+            font-size: 18px;
+
+            margin-bottom: 9px;
+        }
+
+
+        .project-content p {
+
+            color: var(--muted);
+
+            font-size: 14px;
+
+            margin-bottom: 18px;
+        }
+
+
+        .tags {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 7px;
+        }
+
+
+        .tag {
+
+            font-size: 11px;
+
+            padding: 5px 9px;
+
+            border-radius: 5px;
+
+            background: #f1f5f9;
+
+            color: #475569;
+
+            font-weight: 600;
+        }
+
+
+        /* =====================================================
+           PROCESS
+        ====================================================== */
+
+        .process {
+
+            background: white;
+        }
+
+
+        .process-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
+            gap: 25px;
+        }
+
+
+        .process-card {
+
+            text-align: center;
+
+            padding: 25px;
+        }
+
+
+        .process-number {
+
+            width: 55px;
+
+            height: 55px;
+
+            margin: 0 auto 20px;
+
+            display: grid;
+
+            place-items: center;
+
+            border-radius: 50%;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    var(--primary),
+                    var(--secondary)
+                );
+
+            color: white;
+
+            font-weight: 800;
+
+            font-size: 18px;
+
+            box-shadow:
+                0 10px 25px rgba(37,99,235,0.25);
+        }
+
+
+        .process-card h3 {
+
+            font-size: 17px;
+
+            margin-bottom: 8px;
+        }
+
+
+        .process-card p {
+
+            color: var(--muted);
+
+            font-size: 13px;
+        }
+
+
+        /* =====================================================
+           CTA
+        ====================================================== */
+
+        .cta {
+
+            padding: 80px 0;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #07111f,
+                    #0f2d55
+                );
+
+            color: white;
+        }
+
+
+        .cta-box {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            gap: 30px;
+        }
+
+
+        .cta h2 {
+
+            font-size: 38px;
+
+            margin-bottom: 10px;
+        }
+
+
+        .cta p {
+
+            color: #b7c5d8;
+        }
+
+
+        /* =====================================================
+           CONTACT
+        ====================================================== */
+
+        .contact {
+
+            background: #f8fafc;
+        }
+
+
+        .contact-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                0.9fr 1.1fr;
+
+            gap: 40px;
+        }
+
+
+        .contact-info {
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #07111f,
+                    #0b2c50
+                );
+
+            color: white;
+
+            border-radius: 18px;
+
+            padding: 40px;
+        }
+
+
+        .contact-info h2 {
+
+            font-size: 35px;
+
+            margin-bottom: 15px;
+        }
+
+
+        .contact-info > p {
+
+            color: #c3d0df;
+
+            margin-bottom: 30px;
+        }
+
+
+        .contact-item {
+
+            display: flex;
+
+            gap: 15px;
+
+            margin-bottom: 22px;
+        }
+
+
+        .contact-icon {
+
+            width: 42px;
+
+            height: 42px;
+
+            min-width: 42px;
+
+            display: grid;
+
+            place-items: center;
+
+            border-radius: 10px;
+
+            background:
+                rgba(59,130,246,0.15);
+
+            color: #60a5fa;
+        }
+
+
+        .contact-item h4 {
+
+            font-size: 14px;
+
+            margin-bottom: 3px;
+        }
+
+
+        .contact-item p {
+
+            color: #b7c5d8;
+
+            font-size: 13px;
+        }
+
+
+        .contact-form {
+
+            background: white;
+
+            border:
+                1px solid var(--border);
+
+            border-radius: 18px;
+
+            padding: 40px;
+
+            box-shadow:
+                0 10px 35px rgba(15,23,42,0.05);
+        }
+
+
+        .form-row {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 15px;
+        }
+
+
+        .form-group {
+
+            margin-bottom: 18px;
+        }
+
+
+        .form-group label {
+
+            display: block;
+
+            margin-bottom: 7px;
+
+            font-size: 13px;
+
+            font-weight: 600;
+
+            color: #334155;
+        }
+
+
+        .contact-form input,
+        .contact-form textarea {
+
+            width: 100%;
+
+            padding: 13px 14px;
+
+            border:
+                1px solid #dbe2ea;
+
+            border-radius: 8px;
+
+            outline: none;
+
+            font-size: 14px;
+
+            transition: 0.25s;
+        }
+
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+
+            border-color: var(--primary);
+
+            box-shadow:
+                0 0 0 3px rgba(37,99,235,0.08);
+        }
+
+
+        .contact-form textarea {
+
+            min-height: 145px;
+
+            resize: vertical;
+        }
+
+
+        .contact-form button {
+
+            border: none;
+
+            width: 100%;
+        }
+
+
+        /* =====================================================
+           FOOTER
+        ====================================================== */
+
+        footer {
+
+            background: #030712;
+
+            color: #94a3b8;
+
+            padding: 65px 0 20px;
+        }
+
+
+        .footer-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                2fr 1fr 1fr 1fr;
+
+            gap: 45px;
+
+            margin-bottom: 50px;
+        }
+
+
+        .footer-brand p {
+
+            max-width: 350px;
+
+            margin-top: 15px;
+
+            font-size: 14px;
+
+            line-height: 1.8;
+        }
+
+
+        footer h3 {
+
+            color: white;
+
+            font-size: 15px;
+
+            margin-bottom: 18px;
+        }
+
+
+        footer ul {
+
+            list-style: none;
+        }
+
+
+        footer li {
+
+            margin-bottom: 10px;
+
+            font-size: 13px;
+        }
+
+
+        footer a {
+
+            transition: 0.3s;
+        }
+
+
+        footer a:hover {
+
+            color: #38bdf8;
+        }
+
+
+        .footer-bottom {
+
+            padding-top: 22px;
+
+            border-top:
+                1px solid rgba(255,255,255,0.08);
+
+            display: flex;
+
+            justify-content: space-between;
+
+            gap: 20px;
+
+            font-size: 12px;
+        }
+
+
+        /* =====================================================
+           WHATSAPP
+        ====================================================== */
+
+        .whatsapp {
+
+            position: fixed;
+
+            right: 22px;
+
+            bottom: 22px;
+
+            width: 55px;
+
+            height: 55px;
+
+            display: grid;
+
+            place-items: center;
+
+            border-radius: 50%;
+
+            background: #25d366;
+
+            color: white;
+
+            font-size: 25px;
+
+            box-shadow:
+                0 10px 30px rgba(37,211,102,0.3);
+
+            z-index: 1000;
+
+            transition: 0.3s;
+        }
+
+
+        .whatsapp:hover {
+
+            transform: translateY(-5px) scale(1.05);
+        }
+
+
+        /* =====================================================
+           ANIMATION
+        ====================================================== */
+
+        @keyframes fadeUp {
+
+            from {
+
+                opacity: 0;
+
+                transform:
+                    translateY(25px);
             }
 
-            .contact-content {
-                grid-template-columns: 1fr;
-            }
+            to {
 
-            .footer-grid {
-                grid-template-columns: 1fr 1fr;
+                opacity: 1;
+
+                transform:
+                    translateY(0);
             }
         }
 
 
-        @media (max-width: 650px) {
+        .hero-content {
+
+            animation:
+                fadeUp 0.8s ease forwards;
+        }
+
+
+        /* =====================================================
+           RESPONSIVE
+        ====================================================== */
+
+        @media (max-width: 1000px) {
+
+            .service-grid,
+            .project-grid {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+
+            .why-grid {
+
+                grid-template-columns: 1fr;
+            }
+
+
+            .why-image {
+
+                min-height: 400px;
+            }
+
+
+            .process-grid {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+
+            .footer-grid {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+        }
+
+
+        @media (max-width: 700px) {
 
             .nav-links {
+
                 display: none;
 
                 position: absolute;
 
-                top: 75px;
+                top: 76px;
+
                 left: 0;
 
                 width: 100%;
@@ -570,35 +1652,145 @@
 
                 flex-direction: column;
 
-                gap: 20px;
+                align-items: center;
 
-                text-align: center;
+                gap: 22px;
+
+                border-top:
+                    1px solid rgba(255,255,255,0.08);
             }
 
+
             .nav-links.active {
+
                 display: flex;
             }
 
+
             .menu-btn {
+
                 display: block;
             }
 
-            .service-grid,
-            .project-grid,
-            .footer-grid {
-                grid-template-columns: 1fr;
+
+            .hero {
+
+                min-height: 850px;
             }
+
 
             .hero h1 {
-                font-size: 42px;
+
+                letter-spacing: -2px;
             }
 
+
             .hero p {
+
                 font-size: 16px;
             }
 
+
+            .hero-stats {
+
+                gap: 25px;
+
+                flex-wrap: wrap;
+            }
+
+
+            .service-grid,
+            .project-grid {
+
+                grid-template-columns: 1fr;
+            }
+
+
+            .process-grid {
+
+                grid-template-columns: 1fr;
+            }
+
+
+            .contact-grid {
+
+                grid-template-columns: 1fr;
+            }
+
+
+            .form-row {
+
+                grid-template-columns: 1fr;
+            }
+
+
+            .cta-box {
+
+                flex-direction: column;
+
+                align-items: flex-start;
+            }
+
+
+            .cta h2 {
+
+                font-size: 30px;
+            }
+
+
+            .footer-grid {
+
+                grid-template-columns: 1fr;
+            }
+
+
+            .footer-bottom {
+
+                flex-direction: column;
+
+                text-align: center;
+            }
+        }
+
+
+        @media (max-width: 480px) {
+
             section {
-                padding: 70px 0;
+
+                padding: 75px 0;
+            }
+
+
+            .hero h1 {
+
+                font-size: 42px;
+            }
+
+
+            .hero-buttons {
+
+                flex-direction: column;
+
+                align-items: stretch;
+            }
+
+
+            .btn {
+
+                width: 100%;
+            }
+
+
+            .contact-info,
+            .contact-form {
+
+                padding: 27px;
+            }
+
+
+            .why-image {
+
+                min-height: 330px;
             }
         }
 
@@ -610,609 +1802,1356 @@
 <body>
 
 
-    <!-- =========================
-         HEADER
-    ========================= -->
+<!-- =====================================================
+     NAVBAR
+====================================================== -->
 
-    <header>
+<header>
 
-        <nav>
-
-            <a href="#home" class="logo">
-                Dev<span>Solutions</span>
-            </a>
-
-            <button
-                class="menu-btn"
-                onclick="toggleMenu()"
-                aria-label="Open navigation menu"
-                aria-expanded="false"
-            >
-                ☰
-            </button>
-
-            <ul class="nav-links" id="navLinks">
-
-                <li>
-                    <a href="#home">Home</a>
-                </li>
-
-                <li>
-                    <a href="#services">Services</a>
-                </li>
-
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-
-            </ul>
-
-        </nav>
-
-    </header>
+    <nav class="container">
 
 
+        <a href="#home" class="logo">
 
-    <!-- =========================
-         HERO
-    ========================= -->
-
-    <main>
-
-        <section class="hero" id="home">
-
-            <div class="container">
-
-                <div class="hero-content">
-
-                    <div class="hero-tag">
-                        🚀 Trusted Software Development Company
-                    </div>
-
-                    <h1>
-                        Building Powerful Digital Solutions
-                        for Your Business
-                    </h1>
-
-                    <p>
-                        We build professional websites, custom software,
-                        school management systems, inventory systems,
-                        mobile applications and secure digital solutions
-                        for businesses in Mombasa and across Kenya.
-                    </p>
-
-                    <a href="#contact" class="btn">
-                        Start Your Project
-                    </a>
-
-                </div>
-
+            <div class="logo-mark">
+                D
             </div>
 
-        </section>
+            Dev<span>Solutions</span>
 
+        </a>
 
 
-        <!-- =========================
-             SERVICES
-        ========================= -->
+        <button
+            class="menu-btn"
+            id="menuBtn"
+            aria-label="Open navigation"
+            aria-expanded="false">
 
-        <section class="services" id="services">
+            ☰
 
-            <div class="container">
+        </button>
 
-                <div class="section-title">
 
-                    <h2>
-                        Our Services
-                    </h2>
+        <ul class="nav-links" id="navLinks">
 
-                    <p>
-                        Digital solutions designed to help your business grow.
-                    </p>
+            <li>
+                <a href="#home">
+                    Home
+                </a>
+            </li>
 
-                </div>
+            <li>
+                <a href="#services">
+                    Services
+                </a>
+            </li>
 
+            <li>
+                <a href="#about">
+                    Why Us
+                </a>
+            </li>
 
-                <div class="service-grid">
+            <li>
+                <a href="#projects">
+                    Projects
+                </a>
+            </li>
 
+            <li>
+                <a href="#process">
+                    Process
+                </a>
+            </li>
 
-                    <article class="service-card">
+            <li>
+                <a href="#contact" class="nav-cta">
+                    Let's Talk
+                </a>
+            </li>
 
-                        <div class="service-icon">
-                            🌐
-                        </div>
+        </ul>
 
-                        <h3>
-                            Website Development
-                        </h3>
+    </nav>
 
-                        <p>
-                            Professional, responsive and SEO-friendly
-                            websites for businesses, organizations and
-                            individuals.
-                        </p>
+</header>
 
-                    </article>
 
 
-                    <article class="service-card">
+<!-- =====================================================
+     HERO
+====================================================== -->
 
-                        <div class="service-icon">
-                            💻
-                        </div>
+<main>
 
-                        <h3>
-                            Custom Software
-                        </h3>
 
-                        <p>
-                            Custom business systems designed around your
-                            company's specific workflow and requirements.
-                        </p>
+<section class="hero" id="home">
 
-                    </article>
+    <div class="container">
 
+        <div class="hero-content">
 
-                    <article class="service-card">
 
-                        <div class="service-icon">
-                            📱
-                        </div>
+            <div class="hero-badge">
 
-                        <h3>
-                            Mobile Applications
-                        </h3>
+                <span class="status-dot"></span>
 
-                        <p>
-                            Modern mobile applications that help businesses
-                            connect with customers and manage operations.
-                        </p>
-
-                    </article>
-
-
-                    <article class="service-card">
-
-                        <div class="service-icon">
-                            ☁️
-                        </div>
-
-                        <h3>
-                            Cloud Solutions
-                        </h3>
-
-                        <p>
-                            Cloud-based systems, hosting solutions and
-                            scalable business applications.
-                        </p>
-
-                    </article>
-
-
-                    <article class="service-card">
-
-                        <div class="service-icon">
-                            🔐
-                        </div>
-
-                        <h3>
-                            Cybersecurity
-                        </h3>
-
-                        <p>
-                            Security testing and security-focused solutions
-                            to help protect business applications and data.
-                        </p>
-
-                    </article>
-
-
-                    <article class="service-card">
-
-                        <div class="service-icon">
-                            🛠️
-                        </div>
-
-                        <h3>
-                            Maintenance & Support
-                        </h3>
-
-                        <p>
-                            Ongoing website maintenance, updates,
-                            troubleshooting and technical support.
-                        </p>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =========================
-             PROJECTS
-        ========================= -->
-
-        <section class="projects" id="projects">
-
-            <div class="container">
-
-                <div class="section-title">
-
-                    <h2>
-                        Our Projects
-                    </h2>
-
-                    <p>
-                        Some of the systems and solutions we develop.
-                    </p>
-
-                </div>
-
-
-                <div class="project-grid">
-
-
-                    <article class="project-card">
-
-                        <h3>
-                            School Management System
-                        </h3>
-
-                        <p>
-                            A complete system for managing students,
-                            teachers, classes, attendance and school
-                            administration.
-                        </p>
-
-                    </article>
-
-
-                    <article class="project-card">
-
-                        <h3>
-                            Business Website
-                        </h3>
-
-                        <p>
-                            Modern business websites designed to establish
-                            a professional online presence.
-                        </p>
-
-                    </article>
-
-
-                    <article class="project-card">
-
-                        <h3>
-                            Inventory Management System
-                        </h3>
-
-                        <p>
-                            Software for tracking products, stock,
-                            purchases and business inventory.
-                        </p>
-
-                    </article>
-
-
-                    <article class="project-card">
-
-                        <h3>
-                            Business Dashboard
-                        </h3>
-
-                        <p>
-                            Data dashboards that help businesses monitor
-                            operations and make informed decisions.
-                        </p>
-
-                    </article>
-
-
-                    <article class="project-card">
-
-                        <h3>
-                            HR Management System
-                        </h3>
-
-                        <p>
-                            Systems for managing employees, records,
-                            attendance and organizational information.
-                        </p>
-
-                    </article>
-
-
-                    <article class="project-card">
-
-                        <h3>
-                            Custom Software Solutions
-                        </h3>
-
-                        <p>
-                            Tailored software solutions developed according
-                            to individual business requirements.
-                        </p>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- =========================
-             CONTACT
-        ========================= -->
-
-        <section class="contact" id="contact">
-
-            <div class="container">
-
-                <div class="contact-content">
-
-
-                    <div class="contact-info">
-
-                        <h2>
-                            Let's Build Something Great
-                        </h2>
-
-                        <p>
-                            Have a business idea or need a software solution?
-                            Contact us and let's discuss your project.
-                        </p>
-
-                        <p>
-                            📍 <strong>Location:</strong>
-                            Mombasa, Kenya
-                        </p>
-
-                        <p>
-                            📞 <strong>Phone:</strong>
-                            +254 706 332 477
-                        </p>
-
-                        <p>
-                            📞 <strong>Phone:</strong>
-                            +254 737 941 251
-                        </p>
-
-                        <p>
-                            ✉️ <strong>Email:</strong>
-                            info@devsolutions.co.ke
-                        </p>
-
-                        <p>
-                            🕒 <strong>Working Hours:</strong>
-                            Monday - Friday, 8 AM - 6 PM
-                        </p>
-
-                        <br>
-
-                        <a
-                            href="https://wa.me/254706332477?text=Hello%20DevSolutions"
-                            class="btn"
-                            target="_blank"
-                            rel="noopener"
-                        >
-                            💬 Chat on WhatsApp
-                        </a>
-
-                    </div>
-
-
-
-                    <form
-                        class="contact-form"
-                        action="#"
-                        method="POST"
-                    >
-
-                        <input
-                            type="text"
-                            name="name"
-                            placeholder="Your Name"
-                            required
-                        >
-
-                        <input
-                            type="email"
-                            name="email"
-                            placeholder="Your Email"
-                            required
-                        >
-
-                        <input
-                            type="text"
-                            name="subject"
-                            placeholder="Project Subject"
-                        >
-
-                        <textarea
-                            name="message"
-                            placeholder="Tell us about your project..."
-                            required
-                        ></textarea>
-
-                        <button
-                            type="submit"
-                            class="btn"
-                        >
-                            Send Message
-                        </button>
-
-                    </form>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-
-    <!-- =========================
-         FOOTER
-    ========================= -->
-
-    <footer>
-
-        <div class="container">
-
-            <div class="footer-grid">
-
-
-                <div>
-
-                    <h3>
-                        DevSolutions
-                    </h3>
-
-                    <p>
-                        Professional software development and digital
-                        solutions for businesses in Mombasa and across Kenya.
-                    </p>
-
-                </div>
-
-
-                <div>
-
-                    <h3>
-                        Services
-                    </h3>
-
-                    <ul>
-
-                        <li>
-                            <a href="#services">
-                                Website Development
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#services">
-                                Custom Software
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#services">
-                                Mobile Apps
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#services">
-                                Cybersecurity
-                            </a>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-                <div>
-
-                    <h3>
-                        Contact
-                    </h3>
-
-                    <p>
-                        Mombasa, Kenya
-                    </p>
-
-                    <p>
-                        +254 706 332 477
-                    </p>
-
-                    <p>
-                        info@devsolutions.co.ke
-                    </p>
-
-                </div>
+                Software & Digital Solutions
 
             </div>
 
 
-            <div class="copyright">
+            <h1>
 
-                © 2026 DevSolutions.
-                All Rights Reserved.
+                We Build Digital
+                <span>Solutions</span>
+                That Move Businesses Forward.
+
+            </h1>
+
+
+            <p>
+
+                From high-converting business websites to custom
+                software systems and mobile applications, we help
+                businesses turn ideas into reliable digital products.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#contact"
+                   class="btn btn-primary">
+
+                    Start a Project
+                    →
+                </a>
+
+
+                <a href="#projects"
+                   class="btn btn-outline">
+
+                    View Our Work
+
+                </a>
+
+            </div>
+
+
+            <div class="hero-stats">
+
+                <div class="stat">
+
+                    <strong>
+                        100%
+                    </strong>
+
+                    <span>
+                        Custom Solutions
+                    </span>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong>
+                        24/7
+                    </strong>
+
+                    <span>
+                        Digital Availability
+                    </span>
+
+                </div>
+
+
+                <div class="stat">
+
+                    <strong>
+                        Kenya
+                    </strong>
+
+                    <span>
+                        Based & Serving Businesses
+                    </span>
+
+                </div>
 
             </div>
 
         </div>
 
-    </footer>
+    </div>
+
+</section>
 
 
 
-    <!-- =========================
-         JAVASCRIPT
-    ========================= -->
+<!-- =====================================================
+     SERVICES
+====================================================== -->
 
-    <script>
+<section class="services" id="services">
 
-        function toggleMenu() {
-
-            const navLinks =
-                document.getElementById("navLinks");
-
-            const menuButton =
-                document.querySelector(".menu-btn");
-
-            navLinks.classList.toggle("active");
-
-            const isOpen =
-                navLinks.classList.contains("active");
-
-            menuButton.setAttribute(
-                "aria-expanded",
-                isOpen
-            );
-        }
+    <div class="container">
 
 
-        /* Close mobile menu after clicking a link */
+        <div class="section-heading">
 
-        document.querySelectorAll(".nav-links a")
-            .forEach(function(link) {
+            <span class="section-label">
+                What We Do
+            </span>
 
-                link.addEventListener("click", function() {
+            <h2>
+                Digital Solutions Built Around Your Business
+            </h2>
 
-                    document
-                        .getElementById("navLinks")
-                        .classList.remove("active");
+            <p>
+                Practical technology solutions designed to improve
+                your online presence, automate operations and help
+                your business grow.
+            </p>
 
-                    document
-                        .querySelector(".menu-btn")
-                        .setAttribute(
-                            "aria-expanded",
-                            "false"
-                        );
+        </div>
 
-                });
+
+        <div class="service-grid">
+
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    🌐
+                </div>
+
+                <h3>
+                    Website Development
+                </h3>
+
+                <p>
+                    Modern, responsive and SEO-friendly websites
+                    designed to give your business a professional
+                    online presence.
+                </p>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    💻
+                </div>
+
+                <h3>
+                    Custom Software
+                </h3>
+
+                <p>
+                    Business management systems and custom
+                    applications built around your specific
+                    workflows and requirements.
+                </p>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    📱
+                </div>
+
+                <h3>
+                    Mobile Applications
+                </h3>
+
+                <p>
+                    Mobile solutions that help businesses reach
+                    customers and manage their operations from
+                    anywhere.
+                </p>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    ☁️
+                </div>
+
+                <h3>
+                    Cloud Solutions
+                </h3>
+
+                <p>
+                    Scalable hosting, cloud systems and digital
+                    infrastructure for modern businesses.
+                </p>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    🔐
+                </div>
+
+                <h3>
+                    Cybersecurity
+                </h3>
+
+                <p>
+                    Security-focused development and testing to
+                    help identify and reduce common application
+                    security risks.
+                </p>
+
+            </article>
+
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    📈
+                </div>
+
+                <h3>
+                    SEO & Digital Growth
+                </h3>
+
+                <p>
+                    Search-friendly websites and digital strategies
+                    designed to help businesses become easier to
+                    discover online.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     WHY US
+====================================================== -->
+
+<section class="why-us" id="about">
+
+    <div class="container">
+
+        <div class="why-grid">
+
+
+            <div class="why-image">
+
+                <div class="experience-card">
+
+                    <strong>
+                        Mombasa
+                    </strong>
+
+                    <span>
+                        Serving businesses across Kenya
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="why-content">
+
+                <span class="section-label">
+                    Why DevSolutions
+                </span>
+
+                <h2>
+                    Technology That Solves Real Business Problems
+                </h2>
+
+                <p>
+                    We focus on building useful digital products
+                    rather than technology for technology's sake.
+                    Every project starts by understanding what
+                    your business actually needs.
+                </p>
+
+
+                <div class="benefit">
+
+                    <div class="benefit-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <h4>
+                            Business-Focused Development
+                        </h4>
+
+                        <p>
+                            We design systems around your actual
+                            business processes and goals.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="benefit">
+
+                    <div class="benefit-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <h4>
+                            Responsive & Modern Design
+                        </h4>
+
+                        <p>
+                            Your website or application works
+                            across phones, tablets and computers.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="benefit">
+
+                    <div class="benefit-icon">
+                        ✓
+                    </div>
+
+                    <div>
+
+                        <h4>
+                            Scalable Solutions
+                        </h4>
+
+                        <p>
+                            We build with future improvements
+                            and business growth in mind.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <a href="#contact"
+                   class="btn btn-primary">
+
+                    Discuss Your Project
+                    →
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROJECTS
+====================================================== -->
+
+<section class="projects" id="projects">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                Our Work
+            </span>
+
+            <h2>
+                Solutions We've Been Building
+            </h2>
+
+            <p>
+                Explore examples of the types of digital systems
+                and products we develop.
+            </p>
+
+        </div>
+
+
+        <div class="project-grid">
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    🎓
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        School Management System
+                    </h3>
+
+                    <p>
+                        A centralized platform for managing
+                        students, teachers, classes, attendance
+                        and administration.
+                    </p>
+
+                    <div class="tags">
+
+                        <span class="tag">
+                            PHP
+                        </span>
+
+                        <span class="tag">
+                            MySQL
+                        </span>
+
+                        <span class="tag">
+                            JavaScript
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    🌐
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Business Website
+                    </h3>
+
+                    <p>
+                        Professional websites that help companies
+                        present their services and generate
+                        customer enquiries.
+                    </p>
+
+                    <div class="tags">
+
+                        <span class="tag">
+                            HTML
+                        </span>
+
+                        <span class="tag">
+                            CSS
+                        </span>
+
+                        <span class="tag">
+                            JavaScript
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    📦
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Inventory Management
+                    </h3>
+
+                    <p>
+                        Business software for managing products,
+                        stock levels, purchases and inventory
+                        records.
+                    </p>
+
+                    <div class="tags">
+
+                        <span class="tag">
+                            PHP
+                        </span>
+
+                        <span class="tag">
+                            MySQL
+                        </span>
+
+                        <span class="tag">
+                            Bootstrap
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    📊
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Business Dashboard
+                    </h3>
+
+                    <p>
+                        Interactive dashboards that allow businesses
+                        to monitor important operational information.
+                    </p>
+
+                    <div class="tags">
+
+                        <span class="tag">
+                            PHP
+                        </span>
+
+                        <span class="tag">
+                            MySQL
+                        </span>
+
+                        <span class="tag">
+                            Charts
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    👥
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        HR Management System
+                    </h3>
+
+                    <p>
+                        Digital employee management tools for
+                        organizing staff records and business
+                        administration.
+                    </p>
+
+                    <div class="tags">
+
+                        <span class="tag">
+                            PHP
+                        </span>
+
+                        <span class="tag">
+                            MySQL
+                        </span>
+
+                        <span class="tag">
+                            JavaScript
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <article class="project-card">
+
+                <div class="project-image">
+                    ⚙️
+                </div>
+
+                <div class="project-content">
+
+                    <h3>
+                        Custom Business Software
+                    </h3>
+
+                    <p>
+                        Tailored applications developed around
+                        specific business requirements and
+                        workflows.
+                    </p>
+
+                    <div class="tags">
+
+                        <span class="tag">
+                            Custom
+                        </span>
+
+                        <span class="tag">
+                            API
+                        </span>
+
+                        <span class="tag">
+                            Database
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROCESS
+====================================================== -->
+
+<section class="process" id="process">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                Our Process
+            </span>
+
+            <h2>
+                From Idea to Working Product
+            </h2>
+
+            <p>
+                A simple and transparent development process
+                designed to keep your project moving.
+            </p>
+
+        </div>
+
+
+        <div class="process-grid">
+
+
+            <div class="process-card">
+
+                <div class="process-number">
+                    01
+                </div>
+
+                <h3>
+                    Discover
+                </h3>
+
+                <p>
+                    We understand your business, goals,
+                    customers and project requirements.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">
+                    02
+                </div>
+
+                <h3>
+                    Design
+                </h3>
+
+                <p>
+                    We create the structure, user experience
+                    and visual direction of your product.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">
+                    03
+                </div>
+
+                <h3>
+                    Develop
+                </h3>
+
+                <p>
+                    We turn the approved design into a
+                    functional digital solution.
+                </p>
+
+            </div>
+
+
+            <div class="process-card">
+
+                <div class="process-number">
+                    04
+                </div>
+
+                <h3>
+                    Launch
+                </h3>
+
+                <p>
+                    We test, deploy and provide ongoing
+                    support when your product goes live.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CTA
+====================================================== -->
+
+<section class="cta">
+
+    <div class="container">
+
+        <div class="cta-box">
+
+
+            <div>
+
+                <h2>
+                    Have a Project in Mind?
+                </h2>
+
+                <p>
+                    Let's turn your idea into a practical
+                    digital solution.
+                </p>
+
+            </div>
+
+
+            <a href="#contact"
+               class="btn btn-primary">
+
+                Start a Conversation
+                →
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+====================================================== -->
+
+<section class="contact" id="contact">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <span class="section-label">
+                Contact Us
+            </span>
+
+            <h2>
+                Let's Build Something Useful
+            </h2>
+
+            <p>
+                Tell us what you need and we'll discuss
+                how we can help.
+            </p>
+
+        </div>
+
+
+        <div class="contact-grid">
+
+
+            <div class="contact-info">
+
+                <h2>
+                    Let's Talk
+                </h2>
+
+                <p>
+                    Whether you need a business website,
+                    custom software or a digital system,
+                    we'd love to hear about your project.
+                </p>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📍
+                    </div>
+
+                    <div>
+
+                        <h4>
+                            Location
+                        </h4>
+
+                        <p>
+                            Mombasa, Kenya
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        📞
+                    </div>
+
+                    <div>
+
+                        <h4>
+                            Phone
+                        </h4>
+
+                        <p>
+                            +254 706 332 477
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        ✉
+                    </div>
+
+                    <div>
+
+                        <h4>
+                            Email
+                        </h4>
+
+                        <p>
+                            info@devsolutions.co.ke
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+                        🕒
+                    </div>
+
+                    <div>
+
+                        <h4>
+                            Working Hours
+                        </h4>
+
+                        <p>
+                            Monday - Friday, 8:00 AM - 6:00 PM
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <form
+                class="contact-form"
+                action="#"
+                method="POST">
+
+
+                <div class="form-row">
+
+                    <div class="form-group">
+
+                        <label>
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            name="name"
+                            placeholder="John Doe"
+                            required>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            name="email"
+                            placeholder="john@example.com"
+                            required>
+
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        name="phone"
+                        placeholder="+254 700 000 000">
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        What do you need?
+                    </label>
+
+                    <input
+                        type="text"
+                        name="subject"
+                        placeholder="Website, software, mobile app...">
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label>
+                        Project Details
+                    </label>
+
+                    <textarea
+                        name="message"
+                        placeholder="Tell us about your project..."
+                        required></textarea>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn btn-primary">
+
+                    Send Project Request
+                    →
+
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+
+<!-- =====================================================
+     FOOTER
+====================================================== -->
+
+<footer>
+
+    <div class="container">
+
+
+        <div class="footer-grid">
+
+
+            <div class="footer-brand">
+
+                <a href="#home"
+                   class="logo">
+
+                    <div class="logo-mark">
+                        D
+                    </div>
+
+                    Dev<span>Solutions</span>
+
+                </a>
+
+
+                <p>
+                    Software development and digital solutions
+                    for businesses in Mombasa and across Kenya.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Services
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <a href="#services">
+                            Website Development
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#services">
+                            Custom Software
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#services">
+                            Mobile Applications
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#services">
+                            Cybersecurity
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#services">
+                            SEO
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Company
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <a href="#about">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#projects">
+                            Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#process">
+                            Our Process
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <div>
+
+                <h3>
+                    Contact
+                </h3>
+
+                <ul>
+
+                    <li>
+                        Mombasa, Kenya
+                    </li>
+
+                    <li>
+                        +254 706 332 477
+                    </li>
+
+                    <li>
+                        info@devsolutions.co.ke
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 DevSolutions. All rights reserved.
+            </span>
+
+            <span>
+                Software & Digital Solutions
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+
+<!-- =====================================================
+     WHATSAPP BUTTON
+====================================================== -->
+
+<a
+    href="https://wa.me/254706332477?text=Hello%20DevSolutions%2C%20I%20would%20like%20to%20discuss%20a%20project."
+    target="_blank"
+    rel="noopener"
+    class="whatsapp"
+    aria-label="Chat with DevSolutions on WhatsApp">
+
+    💬
+
+</a>
+
+
+
+<!-- =====================================================
+     JAVASCRIPT
+====================================================== -->
+
+<script>
+
+    const menuBtn =
+        document.getElementById("menuBtn");
+
+    const navLinks =
+        document.getElementById("navLinks");
+
+
+    menuBtn.addEventListener("click", function () {
+
+        navLinks.classList.toggle("active");
+
+        const isOpen =
+            navLinks.classList.contains("active");
+
+        menuBtn.setAttribute(
+            "aria-expanded",
+            isOpen
+        );
+
+    });
+
+
+    document
+        .querySelectorAll(".nav-links a")
+        .forEach(function(link) {
+
+            link.addEventListener("click", function() {
+
+                navLinks.classList.remove("active");
+
+                menuBtn.setAttribute(
+                    "aria-expanded",
+                    "false"
+                );
 
             });
 
-    </script>
+        });
+
+</script>
+
 
 </body>
 
